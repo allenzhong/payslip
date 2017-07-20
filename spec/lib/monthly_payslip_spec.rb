@@ -1,3 +1,4 @@
+require "spec_helper"
 
 RSpec.describe 'MonthlyPayslip Calculator' do
   describe 'Gross Income' do

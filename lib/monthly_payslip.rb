@@ -18,7 +18,6 @@ class MonthlyPayslip
 
   def gross_income
     @gross_income ||= (BigDecimal.new(@annual_salary) / 12).round 
-    @gross_income
   end
 
   def gross_income=(value)

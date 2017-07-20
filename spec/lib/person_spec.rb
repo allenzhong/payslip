@@ -1,3 +1,4 @@
+require "spec_helper"
 RSpec.describe 'Payslip Person' do
   describe 'should be initiallized ' do
     before(:each) do

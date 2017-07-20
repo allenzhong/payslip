@@ -1,6 +1,6 @@
 require 'csv'
 require 'fileutils'
-
+require "spec_helper"
 RSpec.describe 'Payslip Generator' do
   describe 'should read file correctly' do
     before do

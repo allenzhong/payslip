@@ -1,3 +1,4 @@
+require "spec_helper"
 RSpec.describe 'Tax Rules' do
   describe 'should follow the rules. When Taxable Income is in' do
     it '0 - $18200, Tax is nil' do
