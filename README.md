@@ -119,8 +119,8 @@ Installation
     ruby payslip.rb -h
       Usage: ruby payslip.rb [options]
       -h, --help                       Prints this help
-      -i, --input INPUT                Source host
-      -o, --output OUTPUT              Source port
+      -i, --input INPUT                Input CSV file name
+      -o, --output OUTPUT              Onput CSV file name
     ```
     
     By providing `-o` or `--output` arguments, the output file will be specified.

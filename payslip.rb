@@ -16,8 +16,8 @@ if __FILE__ == $0
       exit
     end
 
-    opts.on('-i', '--input INPUT', 'Source host') { |v| options[:input] = v }
-    opts.on('-o', '--output OUTPUT', 'Source port') { |v| options[:output] = v }
+    opts.on('-i', '--input INPUT', 'Input CSV file name') { |v| options[:input] = v }
+    opts.on('-o', '--output OUTPUT', 'Onput CSV file name') { |v| options[:output] = v }
   end.parse!
 
   if options[:input].nil?
